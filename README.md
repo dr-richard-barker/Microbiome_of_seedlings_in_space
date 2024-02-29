@@ -1,14 +1,13 @@
 # Microbiome of seedling in space 
 
 **Microbiome of seedling in space**
-This repo contains data products produced while exploring the microbial communities present in series of studies with similar meta-data characteristics
+This repo contains data products produced while exploring the microbial communities present in a series of studies with similar meta-data characteristics
 
 **Goal(s)** To identify evidence for microbes that are differentially abundant in orbit relative to ground controls.  
 
 **Keywords:** Spaceflight, Arabidopsis, Microbiome, RNAseq, meta-analysis, plant genetics 
 
-**Introductory/Summary:** Spaceflight presents a unique environment for biological experiments, notably due to the presence of microgravity and other space-specific factors. Abidopsis, a widely used model organism in plant biology, has been the focus of numerous studies to explore plant growth and development in space. The selection of these 5 GLDS datasets, comprising 38 observations across 8 variables, provides a comprehensive overview of various Arabidopsis seedling development experiments conducted during spaceflight. Overall, these accessions from the GeneLab data repository provide invaluable data for understanding the complex dynamics of Arabidopsis thaliana development under varied environmental conditions, particularly focusing on the effects of microgravity and how it might influence the plant microbiome.  Understanding how plants respond to these conditions is crucial for long-term space missions and offers insights into fundamental biological processes. Ar
-
+**Introductory/Summary:** Spaceflight presents a unique environment for biological experiments, notably due to the presence of microgravity and other space-specific factors. Abidopsis, a widely used model organism in plant biology, has been the focus of numerous studies to explore plant growth and development in space. Here we describe the selection of 5  Open Science Data Resportory (OSDR) datasets, as they provided a comprehensive overview of various Arabidopsis seedling development experiments conducted during spaceflight. Understanding how plants respond to these conditions is crucial for long-term space missions and offers insights into fundamental biological processes, studies collectively comprise 38 observations across 8 primary variables. While their transcriptomes have been extensively researched (see reference on OSDR accession home pages linked below) to date no work has been done to assess if these samples can also provide insight into the microbial response to spaceflight. Overall, these accessions from the GeneLab data repository provide invaluable data for understanding the complex dynamics of Arabidopsis thaliana development and potential interactions with its microbial community development under varied environmental conditions, but particularly focusing on the effects of microgravity. 
 
 ---
 
@@ -34,19 +33,19 @@ Understanding microbiome shifts in space: Analyzing RNAseq data will reveal whic
 This may indicate how the microbiome adapts in zero-gravity environments.
 
 Our goal is to identify key pathways in plant-microbe interactions: 
-Identifying differentially expressed transcripts will unveil how plant-microbe signaling pathways are altered in space, shedding light on vital mutualistic relationships that are critical for plant health and growth.
+Identifying differentially expressed transcripts will unveil how plant-microbe signalling pathways are altered in space, shedding light on vital mutualistic relationships that are critical for plant health and growth.
 
 
 **Identify target studies by searching through the Open Science Archive:** To find a set of related studies we'll search for "Arabidopsis" as the species, "Flight vs Ground" as the Treatment, "RNAseq" as the assay type and no fraction G forces or additional radiation treatments.
 
 ![Slide3](Slide3.png)
-**Figure 2:** Filtering using GeneLabv metadata identifies similar studies (as described by Barker et al., 2023).
+**Figure:** Filtering using GeneLab metadata identifies similar studies (as described by Barker et al., 2023).
 
 ---
 
 **Separate analysis:** Combining anlysis of OSD-37 , OSD-38 , OSD-120, OSD-231 and OSD-321 will provide new insights. 
 
-Each of the studies transcriptome can be analysed separately 
+Each of the studies' transcriptome can be analysed separately 
 
 https://visualization.genelab.nasa.gov/data/OSD-37
 
@@ -59,7 +58,7 @@ https://visualization.genelab.nasa.gov/data/OSD-231
 https://visualization.genelab.nasa.gov/data/OSD-321
 
 **Separate analysis plan:** 
-Pull raw Fastq files from OSD-37 for WT Col-0 variety, filter reads that align to the Arabidopsis Genome and quantify the transcripts that remain that below to the microbial community. Compare flight vs ground abunance. 
+Pull raw Fastq files from OSD-37 for WT Col-0 variety, filter reads that align to the Arabidopsis Genome and quantify the transcripts that remain below to the microbial community. Compare flight vs ground abundance. 
 Repeat for OSD-38, OSD-120, OSD-231, OSD-321. 
 
 **Combined analysis:** 
@@ -71,7 +70,7 @@ Merge abundance measurements and calculate statistics
 
 
 **Similarities and differences in methods GeneLab Metadata mining reveals similarities between these studies** 
-GeneLab Data System (GLDS) Identifiers enable tracking of specific datasets within a larger repository. These identifiers, such as GLDS-37, GLDS-38, GLDS-120, GLDS-218, GLDS-321,  etc., are crucial for cross-referencing and detailed analysis of the spaceflight experiments involving Arabidopsis thaliana. By cataloging experiments in this manner, the GeneLab researchers enabled efficient access allowing comparison of different studies and enhancing our understanding of plant responses to spaceflight conditions.
+GeneLab Data System (GLDS) Identifiers enable tracking of specific datasets within a larger repository. These identifiers, such as GLDS-37, GLDS-38, GLDS-120, GLDS-218, GLDS-321,  etc., are crucial for cross-referencing and detailed analysis of the spaceflight experiments involving Arabidopsis thaliana. By cataloguing experiments in this manner, the GeneLab researchers enabled efficient access allowing comparison of different studies and enhancing our understanding of plant responses to spaceflight conditions.
 
 
 **A. Key Similarities between studies:** These studies were selected as they have several key methodologies and conditions that are conserved that is the use of agar nutrient gels in petri dishes to be used as the primary source of moisture and nutrients. The use of BRIC hardware has allowed the assessment of a range of ecotypes and genotypes on Phytagel plates in Petri dish fixation units (PDFU). The BRIC hardware has been used as its specialized PDFU growth chambers provide a controlled dark environment for plant growth in orbit. There is a notable uniformity in the short-duration nature of these studies, with plants being harvested in their nascent stages, providing insights into early growth dynamics. The addition of light in GLDS-120, allows comparison of plants that undergo photomorphogenesis in perpetual light to those that undergo skotomorphogensis in complete darkness, which is another pivotal aspect as this enables oxygen production via photosynthesis. The selection of this variation is not arbitrary but deliberate, aimed at unravelling the intricate effects of light on plant growth, development and morphogenesis. The choice of ecotypes/genotypes in these studies is not diverse but rather concentrated on specific, well-characterized strains such as Col-0, WS-0, and mutant variations of Col. This choice indicates a preference for using genetically familiar and extensively studied plant lines, facilitating comparative analysis and consistency in results. Lastly, there's a discernible emphasis on studying specific plant tissues, primarily roots, shoots and etiolated seedlings. This focus is indicative of a keen interest in understanding how different environmental stimuli influence the early stages of root and seedling development, crucial for comprehending the broader aspects of plant growth and adaptability.
