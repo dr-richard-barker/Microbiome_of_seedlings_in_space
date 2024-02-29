@@ -39,7 +39,7 @@ Identifying differentially expressed transcripts will unveil how plant-microbe s
 
 **Identify target studies by searching through the Open Science Archive:** To find a set of related studies we'll search for "Arabidopsis" as the species, "Flight vs Ground" as the Treatment, "RNAseq" as the assay type and no fraction G forces or additional radiation treatments.
 
-![Slide3](More_slides_and_figures/Slide3.png)
+![Slide3](Slide3.png)
 **Figure 2:** Filtering using GeneLabv metadata identifies similar studies (as described by Barker et al., 2023).
 
 ---
