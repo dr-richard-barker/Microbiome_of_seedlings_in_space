@@ -11,6 +11,7 @@ This repo contains data products produced while exploring the microbial communit
 
 ---
 
+
 **Importance of seed germination for seedling establishment and its influence on the life cycle:**
 
 Seed germination is a crucial stage in the life cycle of plants, marking the transition from a dormant seed to an actively growing seedling. This process is essential for seedling establishment and subsequent plant growth, as it determines the vigour and overall health of the plant. The importance of seed germination extends beyond the initial stages of plant development, as it also influences the plant's reproductive success and ability to adapt to changing environmental conditions but little is known about the role of the microbial community plays during this important stage of development. 
@@ -29,11 +30,10 @@ This research will investigate how to analyze the quantification of microbiome-r
 
 **Specifically, we'll focus on the following:**
 
-Understanding microbiome shifts in space: Analyzing RNAseq data will reveal which microbial transcripts are detected in space-grown plants compared to Earth-based controls. 
+**Understanding microbiome shifts in space: ** Analyzing RNAseq data will reveal which microbial transcripts are detected in space-grown plants compared to Earth-based controls. 
 This may indicate how the microbiome adapts in zero-gravity environments.
 
-Our goal is to identify key pathways in plant-microbe interactions: 
-Identifying differentially expressed transcripts will unveil how plant-microbe signalling pathways are altered in space, shedding light on vital mutualistic relationships that are critical for plant health and growth.
+Our** goal is to identify key pathways in plant-microbe interactions: ** Identifying differentially expressed transcripts from a meta-transcriptome will unveil how plant-microbe signalling pathways are altered in space, shedding light on vital mutualistic relationships that are critical for plant health and growth.
 
 
 **Identify target studies by searching through the Open Science Archive:** To find a set of related studies we'll search for "Arabidopsis" as the species, "Flight vs Ground" as the Treatment, "RNAseq" as the assay type and no fraction G forces or additional radiation treatments.
@@ -57,13 +57,34 @@ https://visualization.genelab.nasa.gov/data/OSD-231
 
 https://visualization.genelab.nasa.gov/data/OSD-321
 
+
 **Separate analysis plan:** 
-Pull raw Fastq files from OSD-37 for WT Col-0 variety, filter reads that align to the Arabidopsis Genome and quantify the transcripts that remain below to the microbial community. Compare flight vs ground abundance. 
+Pull raw Fastq files from OSD-37 for WT Col-0 variety, filter reads that align to the Arabidopsis Genome and quantify the transcripts that remain below to the microbial community. 
+Compare flight vs ground abundance. 
 Repeat for OSD-38, OSD-120, OSD-231, OSD-321. 
 
 **Combined analysis:** 
 Merge abundance measurements and calculate statistics 
 
+
+**Recommended new method for metatranscriptome analysis**
+https://github.com/nf-core/metatdenovo/tree/dev
+![image](https://github.com/dr-richard-barker/Microbiome_seedlings_in_space/assets/8679982/a9accf84-2bdd-4e88-96c8-090b21a5749e)
+
+Then compare with the results from Dixit et al ., suggest that seed surface sanitization could influence the microbiome.
+Seed sanitization can affect the microbiome of leafy green crops and the persistence of E. coli and other microbial communities. 
+
+Persistence of Escherichia coli in the microbiomes of red Romaine lettuce (Lactuca sativa cv. ‘Outredgeous’) and mizuna mustard (Brassica rapa var. japonica) - does seed sanitization matter?
+Authors: Dixit Anirudha R., Khodadad Christina L. M., Hummerick Mary E., Spern Cory J., Spencer LaShelle E., Fischer Jason A., Curry Aaron B., Gooden Jennifer L., Maldonado Vazquez Gretchen J., Wheeler Raymond M., Massa Gioia D., Romeyn Matthew W.
+PubMed ID: 34686151
+DOI: 10.1186/s12866-021-02345-5
+
+https://osdr.nasa.gov/bio/repo/data/studies/OSD-386
+
+---
+
+
+Then compare with a digital twin lettuce microbe (using data from papers like this [Seasonal variation in lettuce microbiome](https://pubmed.ncbi.nlm.nih.gov/38338730/)) to summarize the variance we see in spaceflight relates to terrestrial microbiome trends.  
 
 
 ---
