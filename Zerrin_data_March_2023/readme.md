@@ -38,4 +38,31 @@ For functional quantitation
 
 **MetaPhlAn performs taxonomic assignments with NCBI.** 
 
+Quick bar plot made using "https://julius.ai/" 
+
+```python
+import pandas as pd
+
+# Load the species.tabular file
+df = pd.read_csv('species.tabular', sep='\	')
+
+# Display the first few rows of the dataframe
+print(df.head())
+
+import matplotlib.pyplot as plt
+
+# Create a bar plot
+plt.figure(facecolor='white')
+plt.bar(df['species'], df['abundance'])
+plt.xlabel('Species')
+plt.ylabel('Abundance')
+plt.title('Abundance of Species')
+plt.xticks(rotation=90)
+plt.tight_layout()
+plt.show()
+```
+
+
+![Species_abundance_Ler_test_sample](https://github.com/dr-richard-barker/Microbiome_seedlings_in_space/assets/8679982/4d9fe3e8-c558-4c1a-9cdf-3d3063350d42)
+
 
