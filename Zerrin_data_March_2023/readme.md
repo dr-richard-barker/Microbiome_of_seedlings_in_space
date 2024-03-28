@@ -38,6 +38,18 @@ For functional quantitation
 
 **MetaPhlAn performs taxonomic assignments with NCBI.** 
 
+Here's the species abundance table/ 
+
+| species                    | species_id | abundance |
+|----------------------------|------------|-----------|
+| Ralstonia pickettii        | 329        | 73.00088  |
+| Herbaspirillum huttiense   | 863372     | 16.31611  |
+| Pseudomonas fluorescens    | 294        | 6.973     |
+| Curvibacter gracilis       | 230310     | 1.96584   |
+| Neisseria subflava         | 28449      | 0.75498   |
+
+
+
 Quick bar plot made using "https://julius.ai/" 
 
 ```python
