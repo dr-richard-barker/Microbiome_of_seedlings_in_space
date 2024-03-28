@@ -75,6 +75,16 @@ plt.show()
 ```
 
 
+
 ![Species_abundance_Ler_test_sample](https://github.com/dr-richard-barker/Microbiome_seedlings_in_space/assets/8679982/4d9fe3e8-c558-4c1a-9cdf-3d3063350d42)
 
+
+
+| Microbial Species        | Description                                         | Habitat                         | Known Uses                                               | Potential Applications                            | References                                                                                   |
+|--------------------------|-----------------------------------------------------|---------------------------------|----------------------------------------------------------|--------------------------------------------------|----------------------------------------------------------------------------------------------|
+| Ralstonia pickettii      | Gram-negative, rod-shaped bacterium                | Soil and water                  | Can degrade pollutants like toluene and chlorinated solvents [1] | Bioremediation of contaminated environments        | NCBI: [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2672333/)                          |
+| Herbaspirillum huttiense | Gram-negative, motile bacterium                    | Root systems of plants          | Promotes plant growth by fixing nitrogen [2]              | Biofertilizers to improve crop yields             | NCBI: [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9247281/)                         |
+| Pseudomonas fluorescens  | Gram-negative, rod-shaped bacterium                | Widespread in soil and water    | Produces various beneficial compounds including antibiotics [3] | Biological pest control, disease suppression in plants | NCBI: [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10682437/)                       |
+| Curvibacter gracilis     | Gram-negative, curved rod-shaped bacterium         | Soil and water                  | Degrades organic matter and plays a role in nutrient cycling [4] | Improvement of soil health and fertility          | PubMed: [link](https://pubmed.ncbi.nlm.nih.gov/15545462/)                                     |
+| Neisseria subflava       | Gram-negative, coccus-shaped bacterium            | Part of human commensal flora, found in the upper respiratory tract | Can be opportunistic pathogens but also contribute to the immune system [5] | Research on human health and diseases             | NCBI Bookshelf: [link](https://www.ncbi.nlm.nih.gov/books/NBK532961/)                        |
 
