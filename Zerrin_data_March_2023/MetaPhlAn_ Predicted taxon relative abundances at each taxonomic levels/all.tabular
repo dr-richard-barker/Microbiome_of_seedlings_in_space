@@ -1,0 +1,49 @@
+kingdom	kingdom_id	phylum	phylum_id	class	class_id	order	order_id	family	family_id	genus	genus_id	species	species_id	strains	strains_id	abundance
+Bacteria	2								100.0
+Bacteria	2	Proteobacteria	1224							99.69536
+Bacteria	2	Actinobacteria	201174							0.30464
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216						92.61315
+Bacteria	2	Proteobacteria	1224	Gammaproteobacteria	1236						7.06141
+Bacteria	2	Actinobacteria	201174	Actinomycetia	1760						0.30464
+Bacteria	2	Proteobacteria	1224	Alphaproteobacteria	28211						0.0208
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Burkholderiales	80840					91.85818
+Bacteria	2	Proteobacteria	1224	Gammaproteobacteria	1236	Pseudomonadales	72274					6.973
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Neisseriales	206351					0.75498
+Bacteria	2	Actinobacteria	201174	Actinomycetia	1760	Propionibacteriales	85009					0.30464
+Bacteria	2	Proteobacteria	1224	Gammaproteobacteria	1236	Moraxellales	2887326					0.08841
+Bacteria	2	Proteobacteria	1224	Alphaproteobacteria	28211	Hyphomicrobiales	356					0.0208
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Burkholderiales	80840	Burkholderiaceae	119060				73.57623
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Burkholderiales	80840	Oxalobacteraceae	75682				16.31611
+Bacteria	2	Proteobacteria	1224	Gammaproteobacteria	1236	Pseudomonadales	72274	Pseudomonadaceae	135621				6.973
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Burkholderiales	80840	Comamonadaceae	80864				1.96584
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Neisseriales	206351	Neisseriaceae	481				0.75498
+Bacteria	2	Actinobacteria	201174	Actinomycetia	1760	Propionibacteriales	85009	Propionibacteriaceae	31957				0.30464
+Bacteria	2	Proteobacteria	1224	Gammaproteobacteria	1236	Moraxellales	2887326	Moraxellaceae	468				0.08841
+Bacteria	2	Proteobacteria	1224	Alphaproteobacteria	28211	Hyphomicrobiales	356	Rhizobiaceae	82115				0.0208
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Burkholderiales	80840	Burkholderiaceae	119060	Ralstonia	48736			73.00088
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Burkholderiales	80840	Oxalobacteraceae	75682	Herbaspirillum	963			16.31611
+Bacteria	2	Proteobacteria	1224	Gammaproteobacteria	1236	Pseudomonadales	72274	Pseudomonadaceae	135621	Pseudomonas	286			6.973
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Burkholderiales	80840	Comamonadaceae	80864	Curvibacter	281915			1.96584
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Neisseriales	206351	Neisseriaceae	481	Neisseria	482			0.75498
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Burkholderiales	80840	Burkholderiaceae	119060	Burkholderia	32008			0.57535
+Bacteria	2	Actinobacteria	201174	Actinomycetia	1760	Propionibacteriales	85009	Propionibacteriaceae	31957	Cutibacterium	1912216			0.30464
+Bacteria	2	Proteobacteria	1224	Gammaproteobacteria	1236	Moraxellales	2887326	Moraxellaceae	468	Acinetobacter	469			0.08841
+Bacteria	2	Proteobacteria	1224	Alphaproteobacteria	28211	Hyphomicrobiales	356	Rhizobiaceae	82115	Agrobacterium	357			0.0208
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Burkholderiales	80840	Burkholderiaceae	119060	Ralstonia	48736	Ralstonia pickettii	329		73.00088
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Burkholderiales	80840	Oxalobacteraceae	75682	Herbaspirillum	963	Herbaspirillum huttiense	863372		16.31611
+Bacteria	2	Proteobacteria	1224	Gammaproteobacteria	1236	Pseudomonadales	72274	Pseudomonadaceae	135621	Pseudomonas	286	Pseudomonas fluorescens	294		6.973
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Burkholderiales	80840	Comamonadaceae	80864	Curvibacter	281915	Curvibacter gracilis	230310		1.96584
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Neisseriales	206351	Neisseriaceae	481	Neisseria	482	Neisseria subflava	28449		0.75498
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Burkholderiales	80840	Burkholderiaceae	119060	Burkholderia	32008	Burkholderia contaminans	488447		0.57535
+Bacteria	2	Actinobacteria	201174	Actinomycetia	1760	Propionibacteriales	85009	Propionibacteriaceae	31957	Cutibacterium	1912216	Cutibacterium acnes	1747		0.30464
+Bacteria	2	Proteobacteria	1224	Gammaproteobacteria	1236	Moraxellales	2887326	Moraxellaceae	468	Acinetobacter	469	Acinetobacter junii	40215		0.08841
+Bacteria	2	Proteobacteria	1224	Alphaproteobacteria	28211	Hyphomicrobiales	356	Rhizobiaceae	82115	Agrobacterium	357	Agrobacterium tumefaciens	358		0.0208
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Burkholderiales	80840	Burkholderiaceae	119060	Ralstonia	48736	Ralstonia pickettii	329	SGB12924		73.00088
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Burkholderiales	80840	Oxalobacteraceae	75682	Herbaspirillum	963	Herbaspirillum huttiense	863372	SGB12894		16.31611
+Bacteria	2	Proteobacteria	1224	Gammaproteobacteria	1236	Pseudomonadales	72274	Pseudomonadaceae	135621	Pseudomonas	286	Pseudomonas fluorescens	294	SGB12137		6.973
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Burkholderiales	80840	Comamonadaceae	80864	Curvibacter	281915	Curvibacter gracilis	230310	SGB32622		1.96584
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Neisseriales	206351	Neisseriaceae	481	Neisseria	482	Neisseria subflava	28449	SGB9450		0.75498
+Bacteria	2	Proteobacteria	1224	Betaproteobacteria	28216	Burkholderiales	80840	Burkholderiaceae	119060	Burkholderia	32008	Burkholderia contaminans	488447	SGB13005		0.57535
+Bacteria	2	Actinobacteria	201174	Actinomycetia	1760	Propionibacteriales	85009	Propionibacteriaceae	31957	Cutibacterium	1912216	Cutibacterium acnes	1747	SGB16955		0.30464
+Bacteria	2	Proteobacteria	1224	Gammaproteobacteria	1236	Moraxellales	2887326	Moraxellaceae	468	Acinetobacter	469	Acinetobacter junii	40215	SGB10370		0.08841
+Bacteria	2	Proteobacteria	1224	Alphaproteobacteria	28211	Hyphomicrobiales	356	Rhizobiaceae	82115	Agrobacterium	357	Agrobacterium tumefaciens	358	SGB11090		0.0208
