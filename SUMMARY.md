@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Page](README.md)
+* [Planning page](README.md)
 * [Microbiome of seedling in space](<README (1).md>)
 * [Figure\_folder](Figure\_folder/readme.md)
 * [Google\_colab](Google\_colab/readme.md)
