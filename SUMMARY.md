@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Microbiome of seedling in space](README.md)
+* [Page](README.md)
+* [Microbiome of seedling in space](<README (1).md>)
 * [Figure\_folder](Figure\_folder/readme.md)
 * [Google\_colab](Google\_colab/readme.md)
 * [Transcriptional\_analysis](Transcriptional\_analysis/readme.md)
