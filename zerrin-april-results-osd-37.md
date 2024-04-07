@@ -19,6 +19,14 @@ Overall, we observed that _Ralstonia pickettii_ showed high abundance in all sam
 
 
 
+More information found on BacDive
+
+<figure><img src=".gitbook/assets/image (1).png" alt="" width="160"><figcaption></figcaption></figure>
+
+{% embed url="https://bacdive.dsmz.de/strain/2085" %}
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 
 
 {% embed url="https://docs.google.com/file/d/1ZQZkK6wkO6EQdiOvhX8iK4sHah57QAy9/edit?usp=docslist_api&filetype=mspresentation" %}
