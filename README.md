@@ -29,7 +29,7 @@ Richard (or I assume he was the anonymous hyena, yup ;-) ) and others were able 
 
 
 
-{% embed url="https://github.com/dr-richard-barker/Microbiome_seedlings_in_space/blob/main/Google_colab/OSDR_API_meta-transcriptome_microbiome_analysis.ipynb" %}
+{% @github-files/github-code-block url="https://github.com/dr-richard-barker/Microbiome_seedlings_in_space/blob/main/Google_colab/OSDR_API_meta-transcriptome_microbiome_analysis.ipynb" %}
 
 
 
@@ -38,6 +38,10 @@ The Google Doc of our meeting notes and the Excel sheet are in this Google Drive
 {% embed url="https://drive.google.com/drive/folders/10wQXyi5sAjnAyaoCUqeAhAKsHQFFJpJH?usp=sharing" %}
 
 Please feel free to drop anything else there.&#x20;
+
+Explore "Bacdrive" resources for new insights:
+
+{% embed url="https://bacdive.dsmz.de/" %}
 
 If our efforts need a different approach for documents than an open-shared Google, let me know and I will work to set it up.\
 \
