@@ -40,6 +40,14 @@ https://osdr.nasa.gov/bio/repo/data/studies/OSD-386
 
 
 
+Noah Totsline et al, Simulated microgravity facilitates stomatal ingression by Salmonella in lettuce and suppresses a biocontrol agent, _Scientific Reports_ (2024). [DOI: 10.1038/s41598-024-51573-y](https://dx.doi.org/10.1038/s41598-024-51573-y)
+
+
+
+Noah Totsline et al, Microgravity and evasion of plant innate immunity by human bacterial pathogens, _npj Microgravity_ (2023). [DOI: 10.1038/s41526-023-00323-x](https://dx.doi.org/10.1038/s41526-023-00323-x)
+
+
+
 ### Digital twin lettuce microbe&#x20;
 
 Then compare with a digital twin lettuce microbe (using data from papers like this [Seasonal variation in lettuce microbiome](https://pubmed.ncbi.nlm.nih.gov/38338730/)) to summarize the variance we see in spaceflight relates to terrestrial microbiome trends.
