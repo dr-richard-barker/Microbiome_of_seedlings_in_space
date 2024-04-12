@@ -9,7 +9,10 @@ I think we used our time efficiently and would ask that you review (and continue
 {% embed url="https://docs.google.com/document/d/10OFEDtOlVqtniyifgdmHB0D8HRb95u9KH68ok2wW77M/edit?usp=sharing" %}
 
 \
-Richard (or I assume he was the anonymous hyena, yup ;-) ) and others were able to add a lot of components, including the potential datasets we can target. Thanks to all who have edited this already.\
+We should check out the NMDC workflows?
+
+{% embed url="https://nmdc-workflow-documentation.readthedocs.io/en/latest/chapters/3_MetaGAssemly_index.html" %}
+
 \
 **Here are the other action items we had towards the end:**\
 1\. _Create opportunities to access/unite computational resources to address questions_\
