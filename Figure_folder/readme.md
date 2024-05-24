@@ -8,7 +8,7 @@ OSD-386 , OSD-37 , OSD-38 , OSD-321 , OSD-120 , OSD-193 , OSD-217 , OSD-218 , OS
 
 17 studies found in the OSDR
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -16,7 +16,7 @@ OSD-386 , OSD-37 , OSD-38 , OSD-321 , OSD-120 , OSD-193 , OSD-217 , OSD-218 , OS
 
 
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

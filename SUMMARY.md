@@ -9,7 +9,7 @@
 * [Zerrin April 4th results OSD-37](zerrin-april-4th-results-osd-37.md)
 * [Zerrin April 14th preliminbary results OSD-120](zerrin-april-14th-preliminbary-results-osd-120.md)
 * [Zerrin April 23rd update](zerrin-april-23rd-update.md)
-* [Zerrin May 13rd OSD-38](zerrin-may-13rd-osd-38.md)
+* [Zerrin May 20th BRIC20](zerrin-may-20th-bric20.md)
 * [Zerrin May 24th update](zerrin-may-24th-update.md)
 * [Discussion and conclusion](discussion-and-conclusion.md)
 * [References](references.md)

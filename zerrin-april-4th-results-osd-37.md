@@ -2,7 +2,7 @@
 description: OSD_37 update
 ---
 
-# Zerrin April results OSD-37
+# Zerrin April 4th results OSD-37
 
 \
 Analyses can be conducted using both trimming files and BAM files. We have tried to ensure the accuracy of the results by applying both of these analysis methods, and our comparisons have shown that both methodologies provide consistent results.\
@@ -21,11 +21,11 @@ Overall, we observed that _Ralstonia pickettii_ showed high abundance in all sam
 
 More information found on BacDive
 
-<figure><img src=".gitbook/assets/image (1).png" alt="" width="160"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt="" width="160"><figcaption></figcaption></figure>
 
 {% embed url="https://bacdive.dsmz.de/strain/2085" %}
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
