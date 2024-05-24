@@ -24,6 +24,8 @@ We should check out the NMDC workflows?
 3\. _Individual deep dives for metadata on datasets and create a common metadata document_\
 \- I have created a common metadata Google spreadsheet with an example:&#x20;
 
+[Link to edit planning spread sheet](https://docs.google.com/spreadsheets/d/1hjyx9FITrEW3UWRgjLmkzSKVCTmypf5Cg\_Pa5j8sIKk/edit?usp=sharing)
+
 {% embed url="https://docs.google.com/spreadsheets/d/1hjyx9FITrEW3UWRgjLmkzSKVCTmypf5Cg_Pa5j8sIKk/edit?usp=sharing" %}
 
 \
