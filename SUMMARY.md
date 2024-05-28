@@ -12,5 +12,5 @@
 * [Zerrin May 20th BRIC20](zerrin-may-20th-bric20.md)
 * [Zerrin May 24th update](zerrin-may-24th-update.md)
 * [Discussion and conclusion](discussion-and-conclusion.md)
+* [Zerrin May 28th OSD-120](zerrin-may-28th-osd-120.md)
 * [References](references.md)
-* [Zerrin May 28th](zerrin-may-28th.md)
