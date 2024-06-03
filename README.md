@@ -4,9 +4,9 @@ description: Thank you all for joining the meeting.
 
 # Planning page
 
-How to pul the "\_raw.fastq.gz" files from the OSDR.
+How to pul the "\_raw.fastq.gz" files from the OSDR
 
-I think we used our time efficiently and would ask that you review (and continue to edit) the Doc notes from yesterday which are here:&#x20;
+[Click here to access and edit the planning document.](https://docs.google.com/document/d/10OFEDtOlVqtniyifgdmHB0D8HRb95u9KH68ok2wW77M/edit?usp=sharing)
 
 {% embed url="https://docs.google.com/document/d/10OFEDtOlVqtniyifgdmHB0D8HRb95u9KH68ok2wW77M/edit?usp=sharing" %}
 
