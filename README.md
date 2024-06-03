@@ -15,21 +15,14 @@ We should check out the NMDC workflows?
 
 {% embed url="https://nmdc-workflow-documentation.readthedocs.io/en/latest/chapters/3_MetaGAssemly_index.html" %}
 
-\
-**Here are the other action items we had towards the end:**\
-1\. _Create opportunities to access/unite computational resources to address questions_\
-\- Emmanuel, I think it best if you decide how to do this. I can get you guest access to the KU cluster. Emma can do the same at Ohio I bet. Would another mechanism better address this?\
-2\. _Identify access/new datasets. Who do we target to get more datasets? Refine/select datasets based on metadata, low-hanging fruit questions?_- All the OSDR ones are now done towards the end of the Google Doc. AWESOME! Thanks!!! Can we identify other datasets, not in OSD, that we can access/use? Emma?\
-\- In terms of low-hanging fruit/1st effort, my personal (biased) opinion is the contrast between root and shoot tissue (VEGGIE, possibly CARA if shoot data released). It seems like a direct contrast that can control for lots of other factors, may have microbiome data, and has several hypotheses for how these will change based on ecological and physiological theory. First we have to see metadata contrasts.\
-3\. _Individual deep dives for metadata on datasets and create a common metadata document_\
-\- I have created a common metadata Google spreadsheet with an example:&#x20;
-
 [Link to edit planning spread sheet](https://docs.google.com/spreadsheets/d/1hjyx9FITrEW3UWRgjLmkzSKVCTmypf5Cg\_Pa5j8sIKk/edit?usp=sharing)
+
+
 
 {% embed url="https://docs.google.com/spreadsheets/d/1hjyx9FITrEW3UWRgjLmkzSKVCTmypf5Cg_Pa5j8sIKk/edit?usp=sharing" %}
 
 \
-\- I think this could be automated (or done more elegantly than my copy-paste), at least for the OSDR records. That is what #4 below is doing, right @Richard? Then do it by hand for studies not in ALDS? - If we can automate this, awesome. Otherwise, there are more identified datasets (in the OSDR alone) than us. How should we approach?
+\- I think this could be automated (or done more elegantly than my copy-paste), at least for the OSDR records. That is what #4 below is doing, right @Richard? Then do it by hand for studies not in ALDS? - If we can automate this, awesome. Otherwise, there are more identified datasets (in the OSDR alone) than us. How should we approach it?
 
 \
 4\. Example Google colab notebook for pulling metadata for GLDS-69 … now evolving&#x20;
