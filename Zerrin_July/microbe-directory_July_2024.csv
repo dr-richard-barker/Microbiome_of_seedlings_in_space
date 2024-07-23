@@ -1,0 +1,36 @@
+Classification,Genus,Morphology,Functional Information (if available),Habitat/Host,Reference Database Source,DRB,gram_stain,gram_stain_citation,microbiome_location,microbiome_location_citation,antimicrobial_susceptibility,antimicrobial_susceptibility_citation,optimal_temperature,optimal_temperature_citation,extreme_environment,extreme_environment_citation,biofilm_forming,biofilm_forming_citation,optimal_ph,optimal_ph_citation,animal_pathogen,animal_pathogen_citation,spore_forming,spore_forming_citation,pathogenicity,pathogenicity_citation,plant_pathogen,plant_pathogen_citation
+Escherichia coli,Gammaproteobacteria,Rod-shaped,Faculative anaerobe,Human intestine & various environments,NCBI,Human source,0,0,1,0,0,1,0,37,0,1,0,0,0,6.75,0,0,0,0,0,2,0,0
+Moraxella osloensis,Gammaproteobacteria,Coccobacilli,Not available,Human respiratory tract,NCBI,Human source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Cutibacterium acnes,Actinobacteria,Rod-shaped,Propionate production,Human skin,NCBI,Human source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Malassezia restricta,Ascomycota,Fungal yeast,Skin commensal,Human skin,NCBI,Human source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Acinetobacter junii,Gammaproteobacteria,Coccobacilli,Not available,Human skin & hospital environments,NCBI,Human source,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0
+Acinetobacter towneri,Gammaproteobacteria,Coccobacilli,Not available,Human skin & hospital environments,NCBI,Human source,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Corynebacterium aurimucosum,Actinobacteria,Rod-shaped,Diphtherotoxin production,Human skin & mucous membranes,NCBI,Human source,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bradyrhizobium viridifuturi,Alphaproteobacteria,Rod-shaped,Nitrogen fixation,Leguminous plants,NCBI,Human source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Synechococcus elongatus,Cyanobacteria,"Unicellular, coccoid",Photosynthetic,Marine & freshwater environments,NCBI,Human source,0,0,0,0,0,0,0,32.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Streptococcus thermophilus,Firmicutes,Cocci,Lactose fermentation,Milk & dairy products,NCBI,Human source,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GGB2722 SGB3663 (Unknown),Not available,Not available,Not available,Not available,Not available,Human source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Corynebacterium propinquum,Actinobacteria,Rod-shaped,Not available,Skin & mucous membranes,NCBI,Human source,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0
+Xanthomonas campestris,Gammaproteobacteria,Rod-shaped,Plant pathogen,Plants,NCBI,Seed source,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Paenibacillus sp MMS18 CY102,Firmicutes,Rod-shaped,Not available,Soil,NCBI,Seed source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Pseudomonas guariconensis,Gammaproteobacteria,Rod-shaped,Not available,Soil,NCBI,Seed source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Sphingomonas koreensis,Alphaproteobacteria,Rod-shaped,PAH degradation,Soil,NCBI,Seed source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Weizmannia ginsengihumi,Actinobacteria,Filamentous,Ginseng growth promotion,Soil,NCBI,Seed source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Priestia megaterium,Actinobacteria,Rod-shaped,Antibiotic production,Soil,NCBI,Seed source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Paenibacillus sp Y412MC10,Firmicutes,Rod-shaped,Not available,Soil,NCBI,Seed source,1,0,0,0,0,1,0,37,0,0,0,1,0,6.37,0,0,0,1,0,1,0,0
+Streptomyces epipremni,Actinobacteria,Filamentous,Antibiotic production,Soil,NCBI,Seed source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Pseudomonas chengduensis,Gammaproteobacteria,Rod-shaped,Not available,Soil,NCBI,Seed source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Pseudomonas fluorescens,Gammaproteobacteria,Rod-shaped,Biocontrol agent,Soil & plants,NCBI,Seed source,0,0,1,0,0,1,0,25,0,1,0,1,0,7.5,0,1,0,0,0,0,0,0
+Agrobacterium tumefaciens,Alphaproteobacteria,Rod-shaped,Plant pathogen,Soil & plants,NCBI,Seed source,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1
+Ralstonia insidiosa,Betaproteobacteria,Rod-shaped,Plant pathogen,Soil & plants,NCBI,Seed source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Herbaspirillum huttiense,Betaproteobacteria,Rod-shaped,Plant growth promotion,Soil & rhizosphere,NCBI,Seed source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Bacillus subtilis,Firmicutes,Rod-shaped,"Spore formation, antibiotic production",Soil & various environments,NCBI,Seed source,1,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Comamonas denitrificans,Betaproteobacteria,Rod-shaped,Denitrification,Soil & water,NCBI,Seed source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Acidovorax ebreus,Betaproteobacteria,Rod-shaped,Acid tolerance,Soil & water,NCBI,Seed source,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Burkholderia contaminans,Betaproteobacteria,Rod-shaped,Not available,Soil & water,NCBI,Seed source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Pseudomonas juntendi,Gammaproteobacteria,Rod-shaped,Not available,Soil & water,NCBI,Seed source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Ralstonia pickettii,Betaproteobacteria,Rod-shaped,Not available,Soil & water,NCBI,Seed source,0,0,0,0,0,1,0,30,0,0,0,1,0,6.8,0,0,0,0,0,2,0,0
+Curvibacter gracilis,Betaproteobacteria,Curved rod-shaped,Not available,Soil & water,NCBI,Seed source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Acidovorax temperans,Betaproteobacteria,Rod-shaped,Not available,Soil & water,NCBI,Seed source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Aquirufa antheringensis,Betaproteobacteria,Rod-shaped,Not available,Soil & water,NCBI,Seed source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
+Cloacibacterium caeni,Betaproteobacteria,Rod-shaped,Not available,Wastewater treatment systems,NCBI,Seed source,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A
