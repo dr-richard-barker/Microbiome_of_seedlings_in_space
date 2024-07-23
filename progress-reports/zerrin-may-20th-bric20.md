@@ -14,10 +14,10 @@ If this format works for you, I can send all the relative abundance plots (phylu
 
 
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 HALLA similarity comparison&#x20;
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-{% file src=".gitbook/assets/hallagram.pdf" %}
+{% file src="../.gitbook/assets/hallagram.pdf" %}

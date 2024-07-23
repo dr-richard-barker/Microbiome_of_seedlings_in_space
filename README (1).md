@@ -1,6 +1,6 @@
-# Microbiome of seedling in space
+# Plan: Do seedling in space contain microbes.
 
-**Microbiome of seedling in space** This repo contains data products produced while exploring the microbial communities present in a series of studies with similar meta-data characteristics
+**Microbiome of seedling in space:** This repo contains data products produced while exploring the microbial communities present in a series of studies with similar meta-data characteristics
 
 **Goal(s)** To identify evidence for microbes that are differentially abundant in orbit relative to ground controls.
 
