@@ -1,5 +1,7 @@
 ---
-description: Thank you all for joining the meeting.
+description: >-
+  Planning and workflows for a spaceflight seedling microbiome metagenomics
+  analysis, using raw sequencing data pulled from NASA OSDR.
 ---
 
 # Planning page
