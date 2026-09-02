@@ -12,7 +12,7 @@ Our analysis of plant microbiomes has identified the bacterium _Weizmannia ginse
 
 **Key detail:**&#x20;
 
-The sample analysed was ->  GLDS-38\_rna\_seq\_Atha\_WT-Col-0\_sl\_LN2\_Rep1\_n2-1 -> this sample was the liquid N2 fixation control performed at Ames research center (ARC). Dr Sarah Wyatt ca provide more details if necessary.&#x20;
+The sample analysed was ->  GLDS-38\_rna\_seq\_Atha\_WT-Col-0\_sl\_LN2\_Rep1\_n2-1 -> this sample was the liquid N2 fixation control performed at Ames research center (ARC). Dr Sarah Wyatt can provide more details if necessary.&#x20;
 
 <figure><img src="../.gitbook/assets/Slide17 (1).png" alt=""><figcaption></figcaption></figure>
 

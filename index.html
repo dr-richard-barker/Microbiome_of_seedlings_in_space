@@ -26,6 +26,64 @@
       --text-muted: #9ca3af;
       --text-dim: #6b7280;
       --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+      --nav-bg: rgba(9, 13, 22, 0.85);
+      --brand-color: #ffffff;
+      --table-header-bg: rgba(255, 255, 255, 0.04);
+      --table-row-hover: rgba(255, 255, 255, 0.02);
+      --search-bg: rgba(0, 0, 0, 0.3);
+      --step-box-bg: rgba(255, 255, 255, 0.03);
+      --krona-header-bg: rgba(255, 255, 255, 0.03);
+      --hero-heading-gradient: linear-gradient(180deg, #ffffff 30%, #cbd5e1 100%);
+      --manuscript-box-bg: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(168, 85, 247, 0.1));
+      --manuscript-box-border: rgba(56, 189, 248, 0.3);
+      --mini-badge-bg: rgba(255, 255, 255, 0.06);
+      --mini-badge-color: #e2e8f0;
+      --figure-wrap-bg: #000000;
+      --btn-outline-bg: rgba(255, 255, 255, 0.05);
+      --heading-color: #ffffff;
+      --badge-seed-text: #34d399;
+      --badge-human-text: #fbbf24;
+      --badge-water-text: #38bdf8;
+      --radial-1: rgba(56, 189, 248, 0.08);
+      --radial-2: rgba(168, 85, 247, 0.08);
+      color-scheme: dark;
+    }
+
+    :root[data-theme="light"] {
+      --bg-dark: #f8fafc;
+      --bg-card: #ffffff;
+      --bg-card-hover: #f1f5f9;
+      --border-color: rgba(0, 0, 0, 0.1);
+      --border-glow: rgba(2, 132, 199, 0.3);
+      --accent-cyan: #0284c7;
+      --accent-emerald: #059669;
+      --accent-purple: #7c3aed;
+      --accent-amber: #d97706;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --text-dim: #64748b;
+      --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+      --nav-bg: rgba(255, 255, 255, 0.88);
+      --brand-color: #0f172a;
+      --table-header-bg: rgba(0, 0, 0, 0.03);
+      --table-row-hover: rgba(0, 0, 0, 0.02);
+      --search-bg: #ffffff;
+      --step-box-bg: #f8fafc;
+      --krona-header-bg: rgba(0, 0, 0, 0.02);
+      --hero-heading-gradient: linear-gradient(180deg, #0f172a 30%, #334155 100%);
+      --manuscript-box-bg: linear-gradient(135deg, rgba(2, 132, 199, 0.08), rgba(124, 58, 237, 0.08));
+      --manuscript-box-border: rgba(2, 132, 199, 0.3);
+      --mini-badge-bg: rgba(0, 0, 0, 0.05);
+      --mini-badge-color: #334155;
+      --figure-wrap-bg: #f1f5f9;
+      --btn-outline-bg: rgba(0, 0, 0, 0.04);
+      --heading-color: #0f172a;
+      --badge-seed-text: #059669;
+      --badge-human-text: #d97706;
+      --badge-water-text: #0284c7;
+      --radial-1: rgba(2, 132, 199, 0.05);
+      --radial-2: rgba(124, 58, 237, 0.05);
+      color-scheme: light;
     }
 
     * {
@@ -41,8 +99,9 @@
       line-height: 1.6;
       overflow-x: hidden;
       background-image: 
-        radial-gradient(circle at 15% 15%, rgba(56, 189, 248, 0.08) 0%, transparent 40%),
-        radial-gradient(circle at 85% 65%, rgba(168, 85, 247, 0.08) 0%, transparent 40%);
+        radial-gradient(circle at 15% 15%, var(--radial-1) 0%, transparent 40%),
+        radial-gradient(circle at 85% 65%, var(--radial-2) 0%, transparent 40%);
+      transition: background-color 0.25s ease, color 0.25s ease;
     }
 
     a {
@@ -68,16 +127,19 @@
       position: sticky;
       top: 0;
       z-index: 100;
-      background: rgba(9, 13, 22, 0.85);
+      background: var(--nav-bg);
       backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border-color);
       padding: 16px 0;
+      transition: background 0.25s ease, border-color 0.25s ease;
     }
 
     .nav-inner {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      gap: 16px;
     }
 
     .brand {
@@ -87,7 +149,7 @@
       font-weight: 700;
       font-size: 1.15rem;
       letter-spacing: -0.02em;
-      color: #fff;
+      color: var(--brand-color);
     }
 
     .brand-badge {
@@ -119,6 +181,34 @@
       text-decoration: none;
     }
 
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .theme-toggle {
+      background: var(--btn-outline-bg);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 1.15rem;
+      transition: all 0.2s ease;
+      outline: none;
+    }
+
+    .theme-toggle:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--accent-cyan);
+      transform: translateY(-1px);
+    }
+
     .btn {
       display: inline-flex;
       align-items: center;
@@ -145,13 +235,13 @@
     }
 
     .btn-outline {
-      background: rgba(255, 255, 255, 0.05);
+      background: var(--btn-outline-bg);
       border-color: var(--border-color);
       color: var(--text-main);
     }
 
     .btn-outline:hover {
-      background: rgba(255, 255, 255, 0.1);
+      background: var(--bg-card-hover);
       border-color: var(--accent-cyan);
     }
 
@@ -199,7 +289,7 @@
       line-height: 1.2;
       letter-spacing: -0.03em;
       margin-bottom: 24px;
-      background: linear-gradient(180deg, #ffffff 30%, #cbd5e1 100%);
+      background: var(--hero-heading-gradient);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -246,7 +336,7 @@
       font-size: 2.5rem;
       font-weight: 800;
       letter-spacing: -0.03em;
-      color: #fff;
+      color: var(--heading-color);
       margin-bottom: 6px;
       font-family: 'JetBrains Mono', monospace;
     }
@@ -267,7 +357,7 @@
     /* Section Styling */
     section {
       padding: 60px 0;
-      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      border-top: 1px solid var(--border-color);
     }
 
     .section-header {
@@ -279,6 +369,7 @@
       font-weight: 700;
       letter-spacing: -0.02em;
       margin-bottom: 8px;
+      color: var(--heading-color);
     }
 
     .section-header p {
@@ -320,7 +411,7 @@
     .card-title {
       font-size: 1.25rem;
       font-weight: 700;
-      color: #fff;
+      color: var(--heading-color);
     }
 
     .card-meta {
@@ -344,8 +435,8 @@
     }
 
     .mini-badge {
-      background: rgba(255, 255, 255, 0.06);
-      color: #e2e8f0;
+      background: var(--mini-badge-bg);
+      color: var(--mini-badge-color);
       font-size: 0.75rem;
       padding: 3px 8px;
       border-radius: 4px;
@@ -365,7 +456,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 16px 20px;
-      background: rgba(255, 255, 255, 0.02);
+      background: var(--table-header-bg);
       border-bottom: 1px solid var(--border-color);
       flex-wrap: wrap;
       gap: 12px;
@@ -378,7 +469,7 @@
     }
 
     .filter-btn {
-      background: rgba(255, 255, 255, 0.05);
+      background: var(--btn-outline-bg);
       border: 1px solid var(--border-color);
       color: var(--text-muted);
       padding: 6px 14px;
@@ -391,20 +482,21 @@
 
     .filter-btn.active, .filter-btn:hover {
       background: var(--accent-cyan);
-      color: #000;
+      color: #fff;
       border-color: var(--accent-cyan);
       font-weight: 600;
     }
 
     .search-box {
       padding: 8px 14px;
-      background: rgba(0, 0, 0, 0.3);
+      background: var(--search-bg);
       border: 1px solid var(--border-color);
       border-radius: 8px;
-      color: #fff;
+      color: var(--text-main);
       font-size: 0.85rem;
       width: 260px;
       outline: none;
+      transition: border-color 0.2s ease;
     }
 
     .search-box:focus {
@@ -419,7 +511,7 @@
     }
 
     .taxa-table th {
-      background: rgba(255, 255, 255, 0.04);
+      background: var(--table-header-bg);
       padding: 12px 16px;
       font-weight: 600;
       color: var(--text-muted);
@@ -435,7 +527,7 @@
     }
 
     .taxa-table tr:hover td {
-      background: rgba(255, 255, 255, 0.02);
+      background: var(--table-row-hover);
     }
 
     .source-tag {
@@ -448,19 +540,19 @@
 
     .source-seed {
       background: rgba(16, 185, 129, 0.15);
-      color: #34d399;
+      color: var(--badge-seed-text);
       border: 1px solid rgba(16, 185, 129, 0.3);
     }
 
     .source-human {
       background: rgba(245, 158, 11, 0.15);
-      color: #fbbf24;
+      color: var(--badge-human-text);
       border: 1px solid rgba(245, 158, 11, 0.3);
     }
 
     .source-water {
       background: rgba(56, 189, 248, 0.15);
-      color: #38bdf8;
+      color: var(--badge-water-text);
       border: 1px solid rgba(56, 189, 248, 0.3);
     }
 
@@ -489,7 +581,7 @@
     .figure-img-wrap {
       width: 100%;
       height: 250px;
-      background: #000;
+      background: var(--figure-wrap-bg);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -516,7 +608,7 @@
       font-size: 1rem;
       font-weight: 600;
       margin-bottom: 6px;
-      color: #fff;
+      color: var(--heading-color);
     }
 
     .figure-caption p {
@@ -541,7 +633,7 @@
     }
 
     .step-box {
-      background: rgba(255, 255, 255, 0.03);
+      background: var(--step-box-bg);
       border: 1px solid var(--border-color);
       border-radius: 10px;
       padding: 20px;
@@ -560,7 +652,7 @@
       font-size: 1.05rem;
       font-weight: 600;
       margin-bottom: 8px;
-      color: #fff;
+      color: var(--heading-color);
     }
 
     .step-desc {
@@ -580,11 +672,15 @@
 
     .krona-header {
       padding: 16px 20px;
-      background: rgba(255, 255, 255, 0.03);
+      background: var(--krona-header-bg);
       border-bottom: 1px solid var(--border-color);
       display: flex;
       justify-content: space-between;
       align-items: center;
+    }
+
+    .krona-header span {
+      color: var(--heading-color);
     }
 
     .krona-iframe {
@@ -596,8 +692,8 @@
 
     /* Manuscript Downloads */
     .manuscript-box {
-      background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(168, 85, 247, 0.1));
-      border: 1px solid rgba(56, 189, 248, 0.3);
+      background: var(--manuscript-box-bg);
+      border: 1px solid var(--manuscript-box-border);
       border-radius: 16px;
       padding: 36px;
       display: flex;
@@ -611,7 +707,7 @@
       font-size: 1.4rem;
       font-weight: 700;
       margin-bottom: 8px;
-      color: #fff;
+      color: var(--heading-color);
     }
 
     .manuscript-info p {
@@ -698,9 +794,14 @@
         <li><a href="#pipeline">Pipeline</a></li>
         <li><a href="#manuscript">Manuscript</a></li>
       </ul>
-      <a href="manuscript/main.pdf" class="btn btn-primary" download>
-        <span>📄 Download PDF</span>
-      </a>
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle light and dark mode" title="Switch between dark and light mode">
+          <span id="themeIcon">☀️</span>
+        </button>
+        <a href="manuscript/main.pdf" class="btn btn-primary" download>
+          <span>📄 Download PDF</span>
+        </a>
+      </div>
     </div>
   </nav>
 
@@ -1179,6 +1280,50 @@
     function closeModal() {
       document.getElementById("imageModal").classList.remove("active");
     }
+
+    // Theme Toggle Logic
+    const themeToggleBtn = document.getElementById("themeToggle");
+    const themeIcon = document.getElementById("themeIcon");
+
+    function getPreferredTheme() {
+      const savedTheme = localStorage.getItem("seedling_theme");
+      if (savedTheme) {
+        return savedTheme;
+      }
+      return window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    }
+
+    function setTheme(theme) {
+      if (theme === "light") {
+        document.documentElement.setAttribute("data-theme", "light");
+        themeIcon.textContent = "🌙";
+        themeToggleBtn.setAttribute("title", "Switch to Dark Mode");
+        themeToggleBtn.setAttribute("aria-label", "Switch to Dark Mode");
+      } else {
+        document.documentElement.removeAttribute("data-theme");
+        themeIcon.textContent = "☀️";
+        themeToggleBtn.setAttribute("title", "Switch to Light Mode");
+        themeToggleBtn.setAttribute("aria-label", "Switch to Light Mode");
+      }
+      localStorage.setItem("seedling_theme", theme);
+    }
+
+    // Initialize Theme
+    const currentTheme = getPreferredTheme();
+    setTheme(currentTheme);
+
+    themeToggleBtn.addEventListener("click", () => {
+      const active = document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark";
+      const nextTheme = active === "light" ? "dark" : "light";
+      setTheme(nextTheme);
+    });
+
+    // Listen for OS preference changes
+    window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", (e) => {
+      if (!localStorage.getItem("seedling_theme")) {
+        setTheme(e.matches ? "light" : "dark");
+      }
+    });
   </script>
 </body>
 </html>

@@ -4,7 +4,7 @@ description: >-
   Root Tip Samples.
 ---
 
-# Zerrin April preliminbary results OSD-120
+# Zerrin April preliminary results OSD-120
 
 ### Executive Summary
 

@@ -1,13 +1,13 @@
 # Table of contents
 
 * [Planning page](README.md)
-* [Plan: Do seedling in space contain microbes.](<README (1).md>)
+* [Plan: Do seedlings in space contain microbes?](<README (1).md>)
 * [Current draft with BRIC focus](current-draft-with-bric-focus.md)
 * [Progress reports](progress-reports/README.md)
   * [Figure\_folder](progress-reports/figure\_folder.md)
   * [Zerrin April 4th results OSD-37](progress-reports/zerrin-april-4th-results-osd-37.md)
   * [Zerrin\_data\_March\_2023              GLDS-37\_RNAseq\_Atha\_Ler-0\_GC](progress-reports/zerrin\_data\_march\_2023.md)
-  * [Zerrin April 14th preliminbary results OSD-120](progress-reports/zerrin-april-14th-preliminbary-results-osd-120.md)
+  * [Zerrin April 14th preliminary results OSD-120](progress-reports/zerrin-april-14th-preliminbary-results-osd-120.md)
   * [Zerrin April 23rd OSD-38 preliminary update](progress-reports/zerrin-april-23rd-osd-38-preliminary-update.md)
   * [Zerrin May 20th BRIC20](progress-reports/zerrin-may-20th-bric20.md)
   * [Zerrin May 24th  BRIC19 update](progress-reports/zerrin-may-24th-bric19-update.md)

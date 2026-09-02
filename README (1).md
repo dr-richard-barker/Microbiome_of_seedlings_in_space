@@ -1,12 +1,12 @@
-# Plan: Do seedling in space contain microbes.
+# Plan: Do seedlings in space contain microbes?
 
-**Microbiome of seedling in space:** This repo contains data products produced while exploring the microbial communities present in a series of studies with similar meta-data characteristics
+**Microbiome of seedlings in space:** This repo contains data products produced while exploring the microbial communities present in a series of studies with similar meta-data characteristics
 
 **Goal(s)** To identify evidence for microbes that are differentially abundant in orbit relative to ground controls.
 
 **Keywords:** Spaceflight, Arabidopsis, Microbiome, RNAseq, meta-analysis, plant genetics
 
-**Introductory/Summary:** Spaceflight presents a unique environment for biological experiments, notably due to the presence of microgravity and other space-specific factors. Abidopsis, a widely used model organism in plant biology, has been the focus of numerous studies to explore plant growth and development in space. Here we describe the selection of 5 Open Science Data Resportory (OSDR) datasets, as they provided a comprehensive overview of various Arabidopsis seedling development experiments conducted during spaceflight. Understanding how plants respond to these conditions is crucial for long-term space missions and offers insights into fundamental biological processes, studies collectively comprise 38 observations across 8 primary variables. While their transcriptomes have been extensively researched (see reference on OSDR accession home pages linked below) to date no work has been done to assess if these samples can also provide insight into the microbial response to spaceflight. Overall, these accessions from the GeneLab data repository provide invaluable data for understanding the complex dynamics of Arabidopsis thaliana development and potential interactions with its microbial community development under varied environmental conditions, but particularly focusing on the effects of microgravity.
+**Introductory/Summary:** Spaceflight presents a unique environment for biological experiments, notably due to the presence of microgravity and other space-specific factors. Arabidopsis, a widely used model organism in plant biology, has been the focus of numerous studies to explore plant growth and development in space. Here we describe the selection of 5 Open Science Data Repository (OSDR) datasets, as they provided a comprehensive overview of various Arabidopsis seedling development experiments conducted during spaceflight. Understanding how plants respond to these conditions is crucial for long-term space missions and offers insights into fundamental biological processes, studies collectively comprise 38 observations across 8 primary variables. While their transcriptomes have been extensively researched (see reference on OSDR accession home pages linked below) to date no work has been done to assess if these samples can also provide insight into the microbial response to spaceflight. Overall, these accessions from the GeneLab data repository provide invaluable data for understanding the complex dynamics of Arabidopsis thaliana development and potential interactions with its microbial community development under varied environmental conditions, but particularly focusing on the effects of microgravity.
 
 ***
 
@@ -14,7 +14,7 @@
 
 ***
 
-**Separate analysis:** Combining analysis of OSD-37, OSD-38, OSD-120, OSD-231 and OSD-321 will provide new insights.
+**Separate analysis:** Combining analysis of OSD-37, OSD-38, OSD-120, OSD-217 and OSD-321 will provide new insights.
 
 Each of the studies' transcriptome can be analysed separately
 
@@ -28,7 +28,7 @@ https://visualization.genelab.nasa.gov/data/OSD-218
 
 https://visualization.genelab.nasa.gov/data/OSD-321
 
-**Separate analysis plan:** Pull raw Fastq files from OSD-37 for WT Col-0 variety, filter reads that align to the Arabidopsis Genome and quantify the transcripts that remain below to the microbial community. Compare flight vs ground abundance. Repeat for OSD-38, OSD-120, OSD-218, OSD-321.
+**Separate analysis plan:** Pull raw Fastq files from OSD-37 for WT Col-0 variety, filter reads that align to the Arabidopsis Genome and quantify the transcripts that remain and belong to the microbial community. Compare flight vs ground abundance. Repeat for OSD-38, OSD-120, OSD-218, OSD-321.
 
 **Combined analysis:** Merge abundance measurements and calculate statistics
 

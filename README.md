@@ -6,7 +6,7 @@ description: >-
 
 # Planning page
 
-How to pul the "\_raw.fastq.gz" files from the OSDR
+How to pull the "\_raw.fastq.gz" files from the OSDR
 
 [Click here to access and edit the planning document.](https://docs.google.com/document/d/10OFEDtOlVqtniyifgdmHB0D8HRb95u9KH68ok2wW77M/edit?usp=sharing)
 
@@ -17,7 +17,7 @@ We should check out the NMDC workflows?
 
 {% embed url="https://nmdc-workflow-documentation.readthedocs.io/en/latest/chapters/3_MetaGAssemly_index.html" %}
 
-[Link to edit planning spread sheet](https://docs.google.com/spreadsheets/d/1hjyx9FITrEW3UWRgjLmkzSKVCTmypf5Cg\_Pa5j8sIKk/edit?usp=sharing)
+[Link to edit planning spreadsheet](https://docs.google.com/spreadsheets/d/1hjyx9FITrEW3UWRgjLmkzSKVCTmypf5Cg\_Pa5j8sIKk/edit?usp=sharing)
 
 
 
@@ -41,7 +41,7 @@ The Google Doc of our meeting notes and the Excel sheet are in this Google Drive
 
 Please feel free to drop anything else there.&#x20;
 
-Explore "Bacdrive" resources for new insights:
+Explore "BacDive" resources for new insights:
 
 {% embed url="https://bacdive.dsmz.de/" %}
 
