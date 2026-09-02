@@ -1,0 +1,73 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- Essential Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{authblk}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{url}
+\usepackage[round,authoryear]{natbib}
+\usepackage[colorlinks=true,
+            linkcolor=blue!70!black,
+            citecolor=teal!70!black,
+            urlcolor=blue!70!black]{hyperref}
+\usepackage[capitalize,noabbrev]{cleveref}
+
+% --- Document Metadata ---
+\title{\textbf{Mining the Extraterrestrial Seedling Microbiome: Meta-transcriptomic Discovery of Endophytic and Commensal Communities in Spaceflight \textit{Arabidopsis thaliana}}}
+
+\author[1,*]{Richard J. Barker}
+\author[1]{Zerrin Sogutmaz Ozgen}
+\author[2]{Sarah E. Wyatt}
+\author[3]{Simon Gilroy}
+\author[1,4]{NASA GeneLab Plant Analysis Working Group (AWG)}
+
+\affil[1]{AstroBotany Laboratory and Artificial Intelligence Research Initiative (AIRI), Madison, WI, USA}
+\affil[2]{Department of Environmental and Plant Biology, Ohio University, Athens, OH, USA}
+\affil[3]{Department of Botany, University of Wisconsin--Madison, Madison, WI, USA}
+\affil[4]{NASA Ames Research Center, Space Biosciences Division, Moffett Field, CA, USA}
+\affil[*]{Corresponding author: \texttt{richard.barker@nasa.gov}}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+% --- Abstract ---
+\input{sections/01_abstract.tex}
+
+\vspace{1em}
+\noindent\textbf{Keywords:} Spaceflight, \textit{Arabidopsis thaliana}, Endophytic Microbiome, Metatranscriptomics, NASA OSDR, \textit{Ralstonia pickettii}, \textit{Weizmannia ginsengihumi}, Bioregenerative Life Support Systems (BLSS).
+\vspace{1.5em}
+
+% --- Main Body Sections ---
+\input{sections/02_introduction.tex}
+
+\input{tables/table1_datasets.tex}
+
+\input{sections/03_methods.tex}
+
+\input{tables/table2_taxa.tex}
+
+\input{sections/04_results.tex}
+
+\input{sections/05_discussion.tex}
+
+\input{sections/06_declarations.tex}
+
+% --- Bibliography ---
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
