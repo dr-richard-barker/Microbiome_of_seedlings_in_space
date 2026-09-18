@@ -28,7 +28,7 @@ import ssl
 
 OSDR_API_BASE = "https://osdr.nasa.gov/genelab/data/glds/files"
 
-DEFAULT_STUDIES = [37, 38, 120, 217, 321, 522]
+DEFAULT_STUDIES = [37, 38, 69, 120, 193, 217, 218, 223, 281, 321, 417, 522]
 
 
 def fetch_study_metadata(study_ids):
