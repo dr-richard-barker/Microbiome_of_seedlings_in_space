@@ -1,0 +1,66 @@
+Taxon,Spaceflight_Condition_Count,Spaceflight_Prevalence_Pct,Ecological_Classification,In_Simonin_Terrestrial_Core,Simonin_Core_Annotation
+Cutibacterium acnes,15,78.9,Human/Habitat Commensal,Yes,"Core (gyrB dataset, handling/processing commensal)"
+Herbaspirillum huttiense,9,47.4,Endophytic Phytosymbiont / Diazotroph,No,Flexible/Absent in Terrestrial Core
+Ralstonia pickettii,8,42.1,Opportunistic Oligotroph / Monopolizer,No,Flexible/Absent in Terrestrial Core
+Cloacibacterium caeni,8,42.1,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Pseudomonas chengduensis,8,42.1,Conserved Plant-Growth Promoting Core,No,Flexible/Absent in Terrestrial Core
+Pseudomonas fluorescens,8,42.1,Conserved Plant-Growth Promoting Core,Yes,"Core (biocontrol, ISR trigger, biofilm former)"
+Curvibacter gracilis,8,42.1,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Escherichia coli,7,36.8,Human/Habitat Commensal,No,Flexible/Absent in Terrestrial Core
+Acidovorax temperans,7,36.8,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Agrobacterium tumefaciens,7,36.8,Endophytic Phytosymbiont / Diazotroph,No,Flexible/Absent in Terrestrial Core
+GGB2722 SGB3663,5,26.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Acinetobacter junii,5,26.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Cupriavidus metallidurans,4,21.1,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Bradyrhizobium viridifuturi,3,15.8,Endophytic Phytosymbiont / Diazotroph,No,Flexible/Absent in Terrestrial Core
+Ralstonia insidiosa,3,15.8,Opportunistic Oligotroph / Monopolizer,No,Flexible/Absent in Terrestrial Core
+Rhodococcus fascians,2,10.5,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Delftia acidovorans,2,10.5,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Brevundimonas SGB99609,2,10.5,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Neisseria subflava,2,10.5,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Amycolatopsis acidicola,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Tepidimonas fonticaldi,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Dysgonamonadaceae bacterium,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Porphyromonas canoris,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Porphyromonas gulae,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Aquirufa antheringensis,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Moraxella osloensis,1,5.3,Human/Habitat Commensal,No,Flexible/Absent in Terrestrial Core
+Spirosoma rigui,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+GGB43920 SGB61282,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Rothia mucilaginosa,1,5.3,Human/Habitat Commensal,No,Flexible/Absent in Terrestrial Core
+Actinomyces sp HMSC035G02,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Polynucleobacter sp MWH Aus1W21,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Streptococcus infantis,1,5.3,Human/Habitat Commensal,No,Flexible/Absent in Terrestrial Core
+GGB2722,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Streptococcus parasanguinis,1,5.3,Human/Habitat Commensal,No,Flexible/Absent in Terrestrial Core
+Veillonella rogosae,1,5.3,Human/Habitat Commensal,No,Flexible/Absent in Terrestrial Core
+Granulicatella SGB8255,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Candidatus Planktophila sulfonica,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Neisseria_subflava,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Cupriavidus gilardii,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Burkholderia contaminans,1,5.3,Opportunistic Oligotroph / Monopolizer,No,Flexible/Absent in Terrestrial Core
+Elizabethkingia bruuniana,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+GGB31872 SGB65430,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Chryseobacterium sp RR2 3 20,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+GGB46797 SGB64687,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Acinetobacter pittii,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Limnohabitans sp 103DPR2,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Actinobacteria bacterium IMCC25003,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Staphylococcus epidermidis,1,5.3,Human/Habitat Commensal,No,Flexible/Absent in Terrestrial Core
+Flavobacterium chilense,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Asinibacterium sp OR53,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Meiothermus silvanus,1,5.3,Environmental / Substrate Commensal,No,Flexible/Absent in Terrestrial Core
+Malassezia restricta,1,5.3,Human/Habitat Commensal,No,Flexible/Absent in Terrestrial Core
+Pantoea agglomerans,0,0.0,Terrestrial Core (Lost/Depleted in Spaceflight),Yes,"Dominant global core (68.5% prevalence, 16.9% total reads) [EXTIRPATED/UNRECOVERED IN OSDR]"
+Pseudomonas viridiflava,0,0.0,Terrestrial Core (Lost/Depleted in Spaceflight),Yes,"Core (high prevalence across brassicas, legumes) [EXTIRPATED/UNRECOVERED IN OSDR]"
+Pseudomonas syringae,0,0.0,Terrestrial Core (Lost/Depleted in Spaceflight),Yes,Core pathogen/commensal complex [EXTIRPATED/UNRECOVERED IN OSDR]
+Sphingomonas sp.,0,0.0,Terrestrial Core (Lost/Depleted in Spaceflight),Yes,"Core (UV/stress tolerance, pigment producer) [EXTIRPATED/UNRECOVERED IN OSDR]"
+Methylobacterium sp.,0,0.0,Terrestrial Core (Lost/Depleted in Spaceflight),Yes,"Core (methanol/C1 utilizer, cytokinin producer) [EXTIRPATED/UNRECOVERED IN OSDR]"
+Rhizobium sp.,0,0.0,Terrestrial Core (Lost/Depleted in Spaceflight),Yes,"Core (nitrogen fixer, legume symbiont) [EXTIRPATED/UNRECOVERED IN OSDR]"
+Paenibacillus sp.,0,0.0,Terrestrial Core (Lost/Depleted in Spaceflight),Yes,"Core Firmicute (spore former, PGPR, antimicrobial) [EXTIRPATED/UNRECOVERED IN OSDR]"
+Erwinia persicina,0,0.0,Terrestrial Core (Lost/Depleted in Spaceflight),Yes,"Core (gyrB dataset, widespread phytosymbiont) [EXTIRPATED/UNRECOVERED IN OSDR]"
+Stenotrophomonas sp.,0,0.0,Terrestrial Core (Lost/Depleted in Spaceflight),Yes,"Core (gyrB dataset, multidrug resistant, versatile) [EXTIRPATED/UNRECOVERED IN OSDR]"
+Alternaria sp.,0,0.0,Terrestrial Core (Lost/Depleted in Spaceflight),Yes,Dominant global fungal core (>50% seed samples) [EXTIRPATED/UNRECOVERED IN OSDR]
+Cladosporium perangustum,0,0.0,Terrestrial Core (Lost/Depleted in Spaceflight),Yes,Core fungal epiphyte/endophyte [EXTIRPATED/UNRECOVERED IN OSDR]
+Epicoccum nigrum,0,0.0,Terrestrial Core (Lost/Depleted in Spaceflight),Yes,Core fungal biocontrol/endophyte [EXTIRPATED/UNRECOVERED IN OSDR]
+Vishniacozyma sp.,0,0.0,Terrestrial Core (Lost/Depleted in Spaceflight),Yes,Core basidiomycetous yeast [EXTIRPATED/UNRECOVERED IN OSDR]
