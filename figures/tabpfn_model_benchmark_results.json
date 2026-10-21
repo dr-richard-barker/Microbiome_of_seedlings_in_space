@@ -1,0 +1,196 @@
+{
+  "hardware_confinement_benchmark": {
+    "Logistic Reg (L2)": {
+      "Accuracy": 0.842,
+      "Balanced_Accuracy": 0.7,
+      "ROC_AUC": 0.971,
+      "Brier_Score": 0.097
+    },
+    "Random Forest": {
+      "Accuracy": 0.947,
+      "Balanced_Accuracy": 0.9,
+      "ROC_AUC": 1.0,
+      "Brier_Score": 0.055
+    },
+    "Support Vector Machine": {
+      "Accuracy": 0.895,
+      "Balanced_Accuracy": 0.8,
+      "ROC_AUC": 1.0,
+      "Brier_Score": 0.066
+    },
+    "TabPFN (Foundation Model)": {
+      "Accuracy": 0.947,
+      "Balanced_Accuracy": 0.9,
+      "ROC_AUC": 1.0,
+      "Brier_Score": 0.048
+    }
+  },
+  "flight_vs_ground_benchmark": {
+    "Logistic Reg (L2)": {
+      "Accuracy": 0.368,
+      "Balanced_Accuracy": 0.372,
+      "ROC_AUC": 0.4,
+      "Brier_Score": 0.3
+    },
+    "Random Forest": {
+      "Accuracy": 0.263,
+      "Balanced_Accuracy": 0.267,
+      "ROC_AUC": 0.278,
+      "Brier_Score": 0.336
+    },
+    "Support Vector Machine": {
+      "Accuracy": 0.316,
+      "Balanced_Accuracy": 0.311,
+      "ROC_AUC": 0.167,
+      "Brier_Score": 0.323
+    },
+    "TabPFN (Foundation Model)": {
+      "Accuracy": 0.263,
+      "Balanced_Accuracy": 0.25,
+      "ROC_AUC": 0.0,
+      "Brier_Score": 0.328
+    }
+  },
+  "biomarker_features": [
+    {
+      "taxon": "Cutibacterium acnes",
+      "bric_freq": 1.0,
+      "apex_freq": 0.2,
+      "hardware_diff": 0.8,
+      "flight_diff": -0.189
+    },
+    {
+      "taxon": "Herbaspirillum huttiense",
+      "bric_freq": 0.643,
+      "apex_freq": 0.0,
+      "hardware_diff": 0.643,
+      "flight_diff": 0.056
+    },
+    {
+      "taxon": "Curvibacter gracilis",
+      "bric_freq": 0.571,
+      "apex_freq": 0.0,
+      "hardware_diff": 0.571,
+      "flight_diff": -0.044
+    },
+    {
+      "taxon": "Pseudomonas fluorescens",
+      "bric_freq": 0.571,
+      "apex_freq": 0.0,
+      "hardware_diff": 0.571,
+      "flight_diff": -0.044
+    },
+    {
+      "taxon": "Ralstonia pickettii",
+      "bric_freq": 0.571,
+      "apex_freq": 0.0,
+      "hardware_diff": 0.571,
+      "flight_diff": -0.044
+    },
+    {
+      "taxon": "Acidovorax temperans",
+      "bric_freq": 0.5,
+      "apex_freq": 0.0,
+      "hardware_diff": 0.5,
+      "flight_diff": -0.144
+    },
+    {
+      "taxon": "Agrobacterium tumefaciens",
+      "bric_freq": 0.5,
+      "apex_freq": 0.0,
+      "hardware_diff": 0.5,
+      "flight_diff": -0.144
+    },
+    {
+      "taxon": "Acinetobacter junii",
+      "bric_freq": 0.357,
+      "apex_freq": 0.0,
+      "hardware_diff": 0.357,
+      "flight_diff": 0.078
+    },
+    {
+      "taxon": "GGB2722 SGB3663",
+      "bric_freq": 0.357,
+      "apex_freq": 0.0,
+      "hardware_diff": 0.357,
+      "flight_diff": 0.078
+    },
+    {
+      "taxon": "Escherichia coli",
+      "bric_freq": 0.286,
+      "apex_freq": 0.6,
+      "hardware_diff": -0.314,
+      "flight_diff": -0.356
+    },
+    {
+      "taxon": "Cloacibacterium caeni",
+      "bric_freq": 0.5,
+      "apex_freq": 0.2,
+      "hardware_diff": 0.3,
+      "flight_diff": -0.044
+    },
+    {
+      "taxon": "Pseudomonas chengduensis",
+      "bric_freq": 0.5,
+      "apex_freq": 0.2,
+      "hardware_diff": 0.3,
+      "flight_diff": -0.256
+    },
+    {
+      "taxon": "Cupriavidus metallidurans",
+      "bric_freq": 0.286,
+      "apex_freq": 0.0,
+      "hardware_diff": 0.286,
+      "flight_diff": 0.189
+    },
+    {
+      "taxon": "Bradyrhizobium viridifuturi",
+      "bric_freq": 0.214,
+      "apex_freq": 0.0,
+      "hardware_diff": 0.214,
+      "flight_diff": 0.089
+    },
+    {
+      "taxon": "Ralstonia insidiosa",
+      "bric_freq": 0.214,
+      "apex_freq": 0.0,
+      "hardware_diff": 0.214,
+      "flight_diff": -0.333
+    },
+    {
+      "taxon": "Amycolatopsis acidicola",
+      "bric_freq": 0.0,
+      "apex_freq": 0.2,
+      "hardware_diff": -0.2,
+      "flight_diff": 0.1
+    },
+    {
+      "taxon": "Dysgonamonadaceae bacterium",
+      "bric_freq": 0.0,
+      "apex_freq": 0.2,
+      "hardware_diff": -0.2,
+      "flight_diff": 0.1
+    },
+    {
+      "taxon": "Tepidimonas fonticaldi",
+      "bric_freq": 0.0,
+      "apex_freq": 0.2,
+      "hardware_diff": -0.2,
+      "flight_diff": 0.1
+    },
+    {
+      "taxon": "Brevundimonas SGB99609",
+      "bric_freq": 0.143,
+      "apex_freq": 0.0,
+      "hardware_diff": 0.143,
+      "flight_diff": -0.011
+    },
+    {
+      "taxon": "Delftia acidovorans",
+      "bric_freq": 0.143,
+      "apex_freq": 0.0,
+      "hardware_diff": 0.143,
+      "flight_diff": -0.011
+    }
+  ]
+}

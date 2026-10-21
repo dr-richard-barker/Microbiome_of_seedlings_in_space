@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\small
+\caption{\textbf{Machine learning benchmarking on spaceflight seedling microbiome profiles.} Leave-One-Out Cross-Validation (LOOCV) evaluation comparing the TabPFN tabular foundation model \citep{hollmann2025accurate} against classical classifiers on hardware confinement prediction (Closed BRIC Canister vs.\ Open APEX System, $N=19$, $P=52$).}
+\label{tab:benchmarks}
+\begin{tabularx}{\columnwidth}{@{}l c c c c@{}}
+\toprule
+\textbf{Model Architecture} & \textbf{Accuracy} & \textbf{Balanced Acc.} & \textbf{ROC-AUC} & \textbf{Brier Score} \\
+\midrule
+Logistic Regression (L2) & 0.842 & 0.700 & 0.971 & 0.097 \\
+Random Forest ($N_{est}=50$) & 0.947 & 0.900 & 1.000 & 0.055 \\
+Support Vector Machine (Linear) & 0.895 & 0.800 & 1.000 & 0.066 \\
+\textbf{TabPFN (Foundation Model)} & \textbf{0.947} & \textbf{0.900} & \textbf{1.000} & \textbf{0.048} \\
+\bottomrule
+\end{tabularx}
+\end{table}
