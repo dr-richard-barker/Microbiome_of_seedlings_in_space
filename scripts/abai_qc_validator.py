@@ -128,6 +128,60 @@ class ABAIQCValidator:
                 else:
                     self.log("WARN", "Some classification entries appear non-binomial or unassigned")
 
+    def check_fair_hardware_metadata(self):
+        print("\n--- Pillar 5: FAIR Hardware & Study Metadata QC ---")
+        
+        # 1. Verify index.html hardware attribution for OSD-321
+        index_fp = os.path.join(self.repo_path, "index.html")
+        index_text = ""
+        if os.path.exists(index_fp):
+            with open(index_fp, "r", encoding="utf-8") as f:
+                index_text = f.read()
+            if "OSD-321" in index_text:
+                if "EMCS Centrifuge" in index_text:
+                    self.log("FAIL", "index.html contains incorrect 'EMCS Centrifuge' attribution for OSD-321")
+                elif "BRIC-22" in index_text:
+                    self.log("PASS", "index.html correctly attributes OSD-321 to BRIC-22 Canister hardware")
+                else:
+                    self.log("WARN", "index.html mentions OSD-321 but BRIC-22 attribution is missing")
+
+        # 2. Verify manuscript Table 1 hardware attribution
+        table_fp = os.path.join(self.repo_path, "manuscript", "tables", "table1_datasets.tex")
+        table_text = ""
+        if os.path.exists(table_fp):
+            with open(table_fp, "r", encoding="utf-8") as f:
+                table_text = f.read()
+            if "OSD-321" in table_text:
+                if "EMCS (ISS)" in table_text:
+                    self.log("FAIL", "table1_datasets.tex contains incorrect 'EMCS (ISS)' for OSD-321")
+                elif "BRIC-22 (ISS)" in table_text:
+                    self.log("PASS", "table1_datasets.tex correctly attributes OSD-321 to BRIC-22 (ISS)")
+                else:
+                    self.log("WARN", "table1_datasets.tex has unrecognized hardware for OSD-321")
+
+        # 3. Verify manuscript Methods section hardware attribution
+        methods_fp = os.path.join(self.repo_path, "manuscript", "sections", "03_methods.tex")
+        if os.path.exists(methods_fp):
+            with open(methods_fp, "r", encoding="utf-8") as f:
+                methods_text = f.read()
+            if "OSD-321" in methods_text:
+                if "European Modular Cultivation System" in methods_text or "centrifuge" in methods_text.lower():
+                    self.log("FAIL", "03_methods.tex contains incorrect 'European Modular Cultivation System / centrifuge' for OSD-321")
+                elif "BRIC-22" in methods_text:
+                    self.log("PASS", "03_methods.tex correctly attributes OSD-321 to BRIC-22")
+                else:
+                    self.log("WARN", "03_methods.tex has unrecognized hardware description for OSD-321")
+
+        # 4. Check all primary cohort study linkages
+        required_studies = ["OSD-37", "OSD-38", "OSD-120", "OSD-217", "OSD-321", "OSD-522"]
+        all_present = True
+        for st in required_studies:
+            if st not in index_text or st not in table_text:
+                all_present = False
+                self.log("FAIL", f"Primary accession {st} missing across portal or manuscript tables")
+        if all_present:
+            self.log("PASS", f"All {len(required_studies)} primary study accessions consistently mapped")
+
     def run_all_checks(self):
         print("======================================================================")
         print("    AIRI / ABAI QUALITY CONTROL & COMPLIANCE VALIDATION SUITE")
@@ -136,6 +190,7 @@ class ABAIQCValidator:
         self.check_json_schemas()
         self.check_tabular_standards()
         self.check_taxonomic_nomenclature()
+        self.check_fair_hardware_metadata()
 
         print("\n======================================================================")
         print(f" SUMMARY: {self.passed_checks} Passed | {self.failed_checks} Failed | {self.warnings} Warnings")
