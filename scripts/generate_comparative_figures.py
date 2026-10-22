@@ -20,7 +20,7 @@ os.makedirs(FIGURES_DIR, exist_ok=True)
 
 plt.style.use('seaborn-v0_8-whitegrid' if 'seaborn-v0_8-whitegrid' in plt.style.available else 'default')
 fig = plt.figure(figsize=(16, 12), dpi=300)
-gs = fig.add_gridspec(2, 2, height_ratios=[1.2, 1.0], hspace=0.35, wspace=0.28)
+gs = fig.add_gridspec(2, 2, height_ratios=[1.2, 1.0], hspace=0.38, wspace=0.34)
 
 # -------------------------------------------------------------
 # Panel A: Core Taxa Fate in Spaceflight (Barplot)
@@ -28,18 +28,20 @@ gs = fig.add_gridspec(2, 2, height_ratios=[1.2, 1.0], hspace=0.35, wspace=0.28)
 ax_a = fig.add_subplot(gs[0, 0])
 
 categories = [
-    'Persisting Core\n(e.g., P. fluorescens)',
-    'Extirpated / Lost Core\n(e.g., Pantoea, Alternaria)',
+    'Persisting Core\n(P. fluorescens)',
+    'Extirpated Core\n(Pantoea, Alternaria)',
     'Opportunistic Blooms\n(Ralstonia, Burkholderia)',
-    'Human / Hardware Ingress\n(Cutibacterium, E. coli)'
+    'Hardware / Crew Ingress\n(Cutibacterium, E. coli)'
 ]
 counts = [2, 13, 8, 14]
 colors = ['#2ca02c', '#d62728', '#ff7f0e', '#9467bd']
 
-bars = ax_a.bar(categories, counts, color=colors, width=0.55, edgecolor='black', linewidth=1.2, zorder=3)
+bars = ax_a.bar(range(len(categories)), counts, color=colors, width=0.55, edgecolor='black', linewidth=1.2, zorder=3)
 ax_a.grid(axis='y', linestyle='--', alpha=0.7, zorder=0)
 ax_a.set_ylabel('Number of Microbial Taxa', fontsize=12, fontweight='bold')
 ax_a.set_title('A. Fate of Terrestrial Seed Core vs. Spaceflight Colonizers', fontsize=13, fontweight='bold', pad=12)
+ax_a.set_xticks(range(len(categories)))
+ax_a.set_xticklabels(categories, fontsize=9.5, fontweight='bold', rotation=15, ha='right')
 ax_a.set_ylim(0, 16)
 
 for bar in bars:
@@ -69,7 +71,7 @@ rects1 = ax_b.barh(y_pos - height/2, earth_rel_abund, height, label='Terrestrial
 rects2 = ax_b.barh(y_pos + height/2, space_rel_abund, height, label='Spaceflight Hardware (OSDR Meta-Analysis)', color='#e377c2', edgecolor='black', linewidth=1)
 
 ax_b.set_yticks(y_pos)
-ax_b.set_yticklabels(taxa_names, fontsize=11, fontstyle='italic')
+ax_b.set_yticklabels(taxa_names, fontsize=10.5, fontstyle='italic')
 ax_b.invert_yaxis()
 ax_b.set_xlabel('Relative Abundance / Dominance Index (%)', fontsize=12, fontweight='bold')
 ax_b.set_title('B. Key Taxa Relative Abundance Shift: Earth vs. Spaceflight', fontsize=13, fontweight='bold', pad=12)
@@ -104,7 +106,7 @@ b2 = ax_c.bar(x, opportunistic_risk, width=w, label='Oligotroph Monopolization R
 b3 = ax_c.bar(x + w, human_ingress_risk, width=w, label='Human / Crew Handling Colonization Risk (%)', color='#9467bd', edgecolor='black')
 
 ax_c.set_xticks(x)
-ax_c.set_xticklabels(crops, fontsize=10, fontweight='bold')
+ax_c.set_xticklabels(crops, fontsize=9.5, fontweight='bold', rotation=20, ha='right')
 ax_c.set_ylabel('Vulnerability & Shift Index (%)', fontsize=12, fontweight='bold')
 ax_c.set_title('C. Projected Spaceflight Microbiome Dysbiosis Across Simonin et al. Agricultural & BLSS Crop Seed Stocks', fontsize=13, fontweight='bold', pad=12)
 ax_c.set_ylim(0, 110)
@@ -114,6 +116,11 @@ ax_c.grid(axis='y', linestyle='--', alpha=0.7)
 plt.tight_layout()
 out_fig = os.path.join(FIGURES_DIR, "figure5_simonin_vs_spaceflight_comparison.png")
 plt.savefig(out_fig, dpi=300, bbox_inches='tight')
+
+# Also save directly to manuscript/figures/
+manuscript_fig = os.path.join(REPO_DIR, "manuscript", "figures", "figure5_simonin_vs_spaceflight_comparison.png")
+os.makedirs(os.path.dirname(manuscript_fig), exist_ok=True)
+plt.savefig(manuscript_fig, dpi=300, bbox_inches='tight')
 plt.close()
 
 print(f"[+] Successfully generated comparative publication figure: {out_fig}")

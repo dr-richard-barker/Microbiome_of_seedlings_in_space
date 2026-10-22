@@ -218,17 +218,23 @@ ax2.invert_yaxis()
 ax2.axvline(0, color='black', linewidth=1, linestyle='-')
 ax2.set_xlabel('Prevalence Difference (Closed BRIC % - Open APEX %)', fontsize=12, fontweight='bold')
 ax2.set_title('B. Key Microbial Biomarkers Dictating Hardware Ecological Selection', fontsize=13, fontweight='bold', pad=12)
+ax2.set_xlim(-50, 100)
 ax2.grid(axis='x', linestyle='--', alpha=0.7)
 
 for bar in bars:
     width_val = bar.get_width()
-    offset = 1.0 if width_val >= 0 else -1.0
+    offset = 1.8 if width_val >= 0 else -1.8
     ha = 'left' if width_val >= 0 else 'right'
-    ax2.text(width_val + offset, bar.get_y() + bar.get_height()/2, f'{width_val:+.1f}%', ha=ha, va='center', fontsize=9, fontweight='bold')
+    ax2.text(width_val + offset, bar.get_y() + bar.get_height()/2, f'{width_val:+.1f}%', ha=ha, va='center', fontsize=9.5, fontweight='bold')
 
 plt.tight_layout()
 out_fig = os.path.join(FIGURES_DIR, "figure6_tabpfn_benchmark_and_biomarkers.png")
 plt.savefig(out_fig, dpi=300, bbox_inches='tight')
+
+# Also save directly to manuscript/figures/
+manuscript_fig = os.path.join(REPO_DIR, "manuscript", "figures", "figure6_tabpfn_benchmark_and_biomarkers.png")
+os.makedirs(os.path.dirname(manuscript_fig), exist_ok=True)
+plt.savefig(manuscript_fig, dpi=300, bbox_inches='tight')
 plt.close()
 
 print(f"[+] Successfully generated benchmark figure: {out_fig}")
