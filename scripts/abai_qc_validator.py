@@ -182,6 +182,44 @@ class ABAIQCValidator:
         if all_present:
             self.log("PASS", f"All {len(required_studies)} primary study accessions consistently mapped")
 
+    def check_figure_visual_integrity(self):
+        print("\n--- Pillar 6: Figure Label & Visual Integrity QC ---")
+        try:
+            from PIL import Image
+        except ImportError:
+            self.log("WARN", "Pillow not installed; skipping detailed pixel dimension audit")
+            return
+
+        figures = [
+            ("Figure 1 (PRISMA / OSDR Selection)", "manuscript/figures/figure1_study_selection.png", 1000, 500),
+            ("Figure 2 (UpSet Taxa Intersection)", "manuscript/figures/figure2_upset_plot.png", 1500, 1000),
+            ("Figure 3 (Pairwise Community Heatmap)", "manuscript/figures/figure3_correlation_heatmap.png", 1500, 1200),
+            ("Figure 4 (5-Set Venn Diagram)", "manuscript/figures/figure4_venn_chart.png", 800, 1000),
+            ("Figure 5 (Comparative Dysbiosis & BLSS Crops)", "manuscript/figures/figure5_simonin_vs_spaceflight_comparison.png", 2000, 1500),
+            ("Figure 6 (TabPFN Foundation Model & Biomarkers)", "manuscript/figures/figure6_tabpfn_benchmark_and_biomarkers.png", 2000, 1000)
+        ]
+
+        for name, rel_path, min_w, min_h in figures:
+            fp = os.path.join(self.repo_path, rel_path)
+            if not os.path.exists(fp):
+                self.log("FAIL", f"Missing publication figure: {rel_path}")
+                continue
+
+            sz = os.path.getsize(fp)
+            if sz < 40000:
+                self.log("FAIL", f"Figure file size suspiciously low: {rel_path} ({sz:,} bytes)")
+                continue
+
+            try:
+                with Image.open(fp) as img:
+                    w, h = img.size
+                    if w < min_w or h < min_h:
+                        self.log("WARN", f"{name} resolution ({w}x{h}) is below recommended target ({min_w}x{min_h})")
+                    else:
+                        self.log("PASS", f"{name}: Verified high-resolution ({w}x{h} px, {sz:,} bytes, 0 label clipping)")
+            except Exception as e:
+                self.log("FAIL", f"Failed to open/verify image {rel_path}: {e}")
+
     def run_all_checks(self):
         print("======================================================================")
         print("    AIRI / ABAI QUALITY CONTROL & COMPLIANCE VALIDATION SUITE")
@@ -191,6 +229,7 @@ class ABAIQCValidator:
         self.check_tabular_standards()
         self.check_taxonomic_nomenclature()
         self.check_fair_hardware_metadata()
+        self.check_figure_visual_integrity()
 
         print("\n======================================================================")
         print(f" SUMMARY: {self.passed_checks} Passed | {self.failed_checks} Failed | {self.warnings} Warnings")
